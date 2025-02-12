@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alassane Traore - Electrical & Electronics Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body class="dark-mode">
+    <canvas id="constellation-bg"></canvas>
+    <nav class="navbar">
+        <div class="logo">Alassane.</div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#contact" class="hire-me">Hire Me</a>
+            <button class="theme-toggle">
+                <i class='bx bx-moon'></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1><span class="static-text">Hi, I'm </span><span id="typed-text"></span><span class="typing-cursor">|</span></h1>
+                <h2>I'm an Electrical and Electronics Engineer</h2>
+                <p>I specialize in electrical systems design, embedded systems, and IoT solutions.</p>
+                <div class="hero-buttons">
+                    <a href="assets/cv.pdf" class="btn btn-download" id="downloadCV" download disabled>
+                        Download CV <i class='bx bx-download'></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" class="social-link"><i class='bx bxl-github'></i></a>
+                    <a href="#" class="social-link"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <img src="profile.jpg" alt="Alassane Traore">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-title">
+            <h2>About Me</h2>
+            <p>My Journey & Experience</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>With over 4 years of experience in electrical and electronics engineering, I've developed a strong foundation in designing and implementing innovative solutions. My expertise spans across embedded systems, circuit design, and IoT applications.</p>
+                <p>I am passionate about leveraging technology to solve complex problems and create efficient systems. My approach combines theoretical knowledge with practical implementation, ensuring robust and scalable solutions.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="number">4+</span>
+                        <span class="label">Years of Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">15+</span>
+                        <span class="label">Projects Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">10+</span>
+                        <span class="label">Technologies</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="assets/about-image.jpg" alt="Working on electronics">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-title">
+            <h2>Skills & Technologies</h2>
+            <p>My technical expertise</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class='bx bx-chip'></i>
+                <h3>Electrical Engineering</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-progress="10"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-microchip'></i>
+                <h3>Electronics</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-progress="10"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-circuit'></i>
+                <h3>Circuit Design</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-progress="10"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-devices'></i>
+                <h3>PCB Design</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-progress="10"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-code-curly'></i>
+                <h3>Embedded Systems</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-progress="10"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-cube'></i>
+                <h3>AutoCAD</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-progress="10"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-math'></i>
+                <h3>MATLAB</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-progress="10"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-terminal'></i>
+                <h3>PLC Programming</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-progress="10"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-title">
+            <h2>My Projects</h2>
+            <p>Featured works and achievements</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-media">
+                    <div class="thumbnail active">
+                        <img src="assets/project1-thumb.jpg" alt="Project 1 Thumbnail">
+                        <button class="play-btn" aria-label="Play video">
+                            <i class='bx bx-play'></i>
+                        </button>
+                    </div>
+                    <div class="video-container">
+                        <video src="assets/project1.mp4" controls preload="none" poster="assets/project1-thumb.jpg"></video>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Project Title 1</h3>
+                    <p>Project description goes here. Explain the key features and technologies used.</p>
+                    <div class="project-tags">
+                        <span>Electronics</span>
+                        <span>IoT</span>
+                        <span>Arduino</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class='bx bx-link-external'></i> Live Demo</a>
+                        <a href="#" class="project-link"><i class='bx bxl-github'></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template for additional projects -->
+            <div class="project-card">
+                <div class="project-media">
+                    <div class="thumbnail active">
+                        <img src="assets/project2-thumb.jpg" alt="Project 2 Thumbnail">
+                        <button class="play-btn" aria-label="Play video">
+                            <i class='bx bx-play'></i>
+                        </button>
+                    </div>
+                    <div class="video-container">
+                        <video src="assets/project2.mp4" controls preload="none" poster="assets/project2-thumb.jpg"></video>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Project Title 2</h3>
+                    <p>Project description goes here. Explain the key features and technologies used.</p>
+                    <div class="project-tags">
+                        <span>Embedded Systems</span>
+                        <span>C++</span>
+                        <span>Hardware</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class='bx bx-link-external'></i> Live Demo</a>
+                        <a href="#" class="project-link"><i class='bx bxl-github'></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Contact Me</h2>
+            <p>Let's work together</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class='bx bx-phone'></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+1234567890</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bx-envelope'></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>your.email@example.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bx-map'></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Your City, Country</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">
+                    Send Message <i class='bx bx-send'></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="constellation.js"></script>
+    <script src="cursor-animation.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
